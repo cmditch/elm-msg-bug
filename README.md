@@ -23,7 +23,12 @@ aka `TheDefaultCase { wat : { hereIsAnElmException : Int } }`
 7. The code attempts to access `constructorValue.wat.hereIsAnElmException`.
 `constructorValue` is actually a `Boolean` off of `EditorFocused` so an exception is thrown.
 
-![image](https://user-images.githubusercontent.com/15849320/119717049-10cdfd00-be23-11eb-8d71-b83c0c9fb507.png)
+![image](https://user-images.githubusercontent.com/15849320/119717049-10cdfd00-be23-11eb-8d71-b83c0c9fb507.png)  
+
+
+**Note:** If you disable the offending code in `Settings` under `Msg.TheDefaultCase`, you an invalid `Msg` type propagating to `Settings.update`
+Screen Shot 2021-05-26 at 1.28.36 PM![image](https://user-images.githubusercontent.com/15849320/119720147-d8c8b900-be26-11eb-863c-f97d76acc805.png)
+
 
 ### Run
 1. Install deps and start dev server
