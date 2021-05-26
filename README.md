@@ -31,7 +31,7 @@ aka `TheDefaultCase { wat : { hereIsAnElmException : Int } }`
 yarn install
 yarn dev
 ```
-2. Open http://localhost:1234
+2. Open http://localhost:1234 **in Chrome**
 3. Click into textfield.
 4. Click "Go to Settings" link.
 5. Look at console for the exception.
