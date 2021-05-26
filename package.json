@@ -1,9 +1,17 @@
 {
-  "dependencies": {
-    "parcel": "1.12.4"
+  "name": "elm-msg-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cmditch/elm-msg-bug.git",
+  "author": "Coury Ditch",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn parcel dev index.html"
   },
   "devDependencies": {
     "elm-hot": "^1.1.6",
-    "node-elm-compiler": "^5.0.6"
+    "node-elm-compiler": "^5.0.6",
+    "parcel": "1.12.3"
   }
 }
+
