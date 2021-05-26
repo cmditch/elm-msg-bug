@@ -22,11 +22,11 @@ const testNodeRemovalBehavior = () =>
         input.value = "yada yada"
         document.body.append(input);
         input.focus();
-        setTimeout(() => input.remove(), 4000)
+        setTimeout(() => input.remove(), 2000)
     }
 
 /* Uncomment the function below to see how Chrome, Safari, Firefox do or do not
    fire events after an element has been removed.
 */
 
-// testNodeRemovalBehavior()
+// setTimeout(() => testNodeRemovalBehavior(), 1000)

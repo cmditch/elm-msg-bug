@@ -25,8 +25,12 @@ update msg model =
             , Cmd.none
             )
 
-        TheDefaultCase foo ->
-            ( { model | foo = foo.wat.hereIsAnElmException }
+        TheDefaultCase constructorValue ->
+            let
+                _ =
+                    Debug.log "" constructorValue.wat.hereIsAnElmException
+            in
+            ( model
             , Cmd.none
             )
 
